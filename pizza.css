@@ -1,0 +1,160 @@
+*{
+    margin:0% ;
+    padding: 0%;
+    
+}
+.container{
+    background-image: url(images/pizza3.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 35em;
+    z-index: -5;
+    
+
+    
+
+}
+#logo{
+    height: 4em;
+    width: 4em;
+}
+.navbar{
+    position:fixed;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5em;
+    padding: 1em;
+    
+}
+.navbar ul li{
+    padding: .7em;
+}
+a{
+    font-family: 'Exo 2', sans-serif;
+    text-decoration:none ;
+    color: rgb(155, 245, 132);
+    font-size: 1.5em;
+    
+}
+a:hover{
+    color: #08f300;
+}
+a:visited{
+    color:rgb(160, 0, 0)
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    color:  white;
+}
+p{
+    font-family: 'Skranji', cursive;
+    padding: 1em 16em;
+}
+.welcome{
+     align-items:center ;
+     text-align: center;
+     padding: 7em;
+     
+}
+button{
+    height: 2em;
+    width: 9em;
+    color: white;
+    background:linear-gradient(#f81616,#fa4008);
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.cards{
+    padding-left: 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #000;
+    animation-duration: 1.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-name: views;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f12828 ,#e21919 , #156b00 , #38f31fd0,#c7601c,#7fb600e5,#48ff10,#93e90a,#31f041);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+  
+}
+
+.one{
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    /* background:linear-gradient(#ffffffb6, #df1616d0, #110b0b46); */
+    border: none;
+    
+}
+  
+.dot{
+    margin-left: 100px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 50%;
+    border: none;
+}
+h2{
+    align-items: center;
+    text-align: center;
+    background: #000;
+    animation-duration: 1.5s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    animation-name: views;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #f12828 ,#e21919 , #156b00 , #38f31fd0,#c7601c,#7fb600e5,#48ff10,#93e90a,#31f041);
+    height: 100%;
+    width: 100%;
+    position: relative;
+    
+}
+.dot img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.one:hover{
+    transform: scale(1.1);
+}
+.content{
+    padding: 10px 10px 20px 20px;
+}
+h3{
+    padding-left: 5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 12em;
+}
+.cardss{
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
+    background: #870cfa;
+    
+
+}
+
+@keyframes views {
+    0% {
+      background-position: -30vw 0
+    }
+    100% {
+      background-position: 30vw 0
+    }
+  
+  
+}
